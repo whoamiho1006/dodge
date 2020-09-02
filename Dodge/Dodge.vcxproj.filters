@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Intro\SceneIntro.cpp">
+      <Filter>Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Dot.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SceneGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Intro">
+      <UniqueIdentifier>{ecaac851-92fa-4f17-a83f-ac368431a44c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{22f31db3-9b4b-4c06-bd6e-81f2110f1216}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Intro\SceneIntro.h">
+      <Filter>Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SceneGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game\Dot.h">
+      <Filter>Game</Filter>
+    </None>
+  </ItemGroup>
+</Project>

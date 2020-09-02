@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dodge">
+      <UniqueIdentifier>{ff85e68c-4d85-4ed8-95de-577114195b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dodge\Math">
+      <UniqueIdentifier>{663797a5-8194-4dbf-830d-2c97451cb751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dodge\Graphics">
+      <UniqueIdentifier>{5f9f43de-b3eb-4971-9c29-f7e5d2e3d121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dodge\Inputs">
+      <UniqueIdentifier>{e0ae9fdd-c038-43ed-8cc9-3689f3aa8686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dodge\Scenes">
+      <UniqueIdentifier>{25b213a8-e208-4761-834c-e6dfc6ac524a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dodge\Engine.h">
+      <Filter>Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Types.h">
+      <Filter>Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Math\Vector.h">
+      <Filter>Dodge\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Math\Rectangle.h">
+      <Filter>Dodge\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Window.h">
+      <Filter>Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Graphics\Bitmap.h">
+      <Filter>Dodge\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Color.h">
+      <Filter>Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Graphics\Graphics.h">
+      <Filter>Dodge\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Dodge.h">
+      <Filter>Dodge</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Inputs\InputManager.h">
+      <Filter>Dodge\Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Scenes\Scene.h">
+      <Filter>Dodge\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Scenes\OverlayedScene.h">
+      <Filter>Dodge\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodge\Inputs\InputKeys.h">
+      <Filter>Dodge\Inputs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dodge\Engine.cpp">
+      <Filter>Dodge</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodge\Window.cpp">
+      <Filter>Dodge</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodge\Graphics\Bitmap.cpp">
+      <Filter>Dodge\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodge\Graphics\Graphics.cpp">
+      <Filter>Dodge\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodge\Inputs\InputManager.cpp">
+      <Filter>Dodge\Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodge\Scenes\OverlayedScene.cpp">
+      <Filter>Dodge\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
